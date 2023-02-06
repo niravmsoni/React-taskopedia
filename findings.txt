@@ -67,3 +67,13 @@
             Works
 
     Approach#2: Add styles to a const and then assign it
+    const subHeaderStyle={
+  color:"blueviolet",
+  backgroundColor: "lightgray"
+}
+
+function SubHeader(){
+  return(
+    <p style={subHeaderStyle}>This will be an exciting course.</p>
+  );
+}

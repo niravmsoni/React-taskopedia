@@ -29,9 +29,14 @@ function MainHeader(){
   );
 }
 
+const subHeaderStyle={
+  color:"blueviolet",
+  backgroundColor: "lightgray"
+}
+
 function SubHeader(){
   return(
-    <p>This will be an exciting course.</p>
+    <p style={subHeaderStyle}>This will be an exciting course.</p>
   );
 }
 
