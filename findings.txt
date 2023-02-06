@@ -1,0 +1,8 @@
+20.
+     Created this new app using this command - https://create-react-app.dev/
+21.
+    For running project, execute "npm start".
+    Opens up application against "localhost:3000"
+    For stopping the npm execution, press ctrl + C and enter 'Y'
+22.
+    
