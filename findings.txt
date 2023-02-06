@@ -49,3 +49,21 @@
             <input maxLength={5} readOnly={false} placeHolder="Ben"></input>
         'Class' NEEDS to be replaced with 'className'(Since class is a reserved keyword)
             <h1 className='heading1'>
+
+29. Styles
+    Approach#1: Adding inline styles to JSX
+        We cannot directly add styles to JSX.
+        <p style="color:gray;background-color:black"> Happy Coding!</p>
+        Gives error:
+            Uncaught Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+        Reason:
+            Within JSX, style attribute accepts js object with camelCase properties.
+            Above code needs to be changed to this:
+            <p style={{color:"gray", backgroundColor:"black"}}> Happy Coding!</p>
+            Changes:
+                Replace "" with {{}}
+                Actual property value i.e. gray and black in above example to be put in ""
+                - needs to be replaced with pascalCase. background-color to be changed to backgroundColor
+            Works
+
+    Approach#2: Add styles to a const and then assign it

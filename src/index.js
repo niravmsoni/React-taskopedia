@@ -37,7 +37,7 @@ function SubHeader(){
 
 function Footer(){
   return(
-    <p>Happy Coding!</p>
+    <p style={{color:"gray", backgroundColor:"black"}}> Happy Coding!</p>
   );
 }
 
