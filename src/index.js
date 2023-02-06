@@ -16,7 +16,22 @@ function MainBody() {
 
 function Header(){
   return(
+    <div>
+<MainHeader />
+    <SubHeader />
+    </div>
+  );
+}
+
+function MainHeader(){
+  return(
     <h1>REACT COURSE</h1>
+  );
+}
+
+function SubHeader(){
+  return(
+    <p>This will be an exciting course.</p>
   );
 }
 

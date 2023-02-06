@@ -29,4 +29,10 @@
     Created a function/component namely MainBody() and we can call it inside root.render(<MainBody />) tag
     FIRST LETTER MUST ALWAYS BE CAPITAL. USE PASCAL CASE FOR REACT COMPONENTS
     Under .render(), there must always be 1 parent element
+    The function that was used here is known as a COMPONENT
 
+26.
+    Components can be nested. Like Parent/Child components etc.
+
+27.
+    Created nested components using functions in react.
