@@ -7,3 +7,13 @@
 22.
     Cleaning up unnecessary files and moved logo from public to src.
     We only have index.js and app logo inside src folder. Under public folder, we just have index.html
+    Now, doing npm start, we see errors(Since we removed a few files and changed location of logo)
+    We removed additional imports from index.js file. We see
+    root.render(
+    <React.StrictMode>
+    </React.StrictMode>
+    );
+        Used to identify potential issues in web application. Does not render anything that's not visible on UI.
+        Will give warnings and errors on UI.
+
+    Removed unnecessary code present in index.html 
