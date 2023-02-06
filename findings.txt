@@ -19,4 +19,14 @@
     Removed unnecessary code present in index.html 
 
 23.
-    
+    Under index.js > root.render(), adding <div>Hello World!</div>
+    We did not need to add any manual js, babel libraries for this project. npx react app did that job for us
+    All dependencies can be seen in package.json project
+
+24.
+    For displaying fancy items, need to write basic HTML into root.render(<HTML gos here>)
+    For adding header and footer, move existing code to function.
+    Created a function/component namely MainBody() and we can call it inside root.render(<MainBody />) tag
+    FIRST LETTER MUST ALWAYS BE CAPITAL. USE PASCAL CASE FOR REACT COMPONENTS
+    Under .render(), there must always be 1 parent element
+
