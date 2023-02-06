@@ -5,4 +5,5 @@
     Opens up application against "localhost:3000"
     For stopping the npm execution, press ctrl + C and enter 'Y'
 22.
-    
+    Cleaning up unnecessary files and moved logo from public to src.
+    We only have index.js and app logo inside src folder. Under public folder, we just have index.html
