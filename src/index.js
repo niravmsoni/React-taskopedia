@@ -14,10 +14,22 @@ function MainBody() {
   );
 }
 
+function Header(){
+  return(
+    <h1>REACT COURSE</h1>
+  );
+}
+
+function Footer(){
+  return(
+    <p>Happy Coding!</p>
+  );
+}
+
 root.render(
 <div>
+  <Header />
   <MainBody/>
-  <MainBody/>
-  <MainBody/>
+  <Footer/>
 </div>
   );
