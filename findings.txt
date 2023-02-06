@@ -36,3 +36,16 @@
 
 27.
     Created nested components using functions in react.
+
+28.
+    JSX Rules:
+        Component names - Pascal Casing
+            function Footer(){} -> <Footer/>
+        Props must be camel casing(MaxLength and ReadOnly in below example)
+            <input maxLength={5} readOnly='false'>
+        Inline style is an object os it must be enclosed in double curly brackets
+            <p style={{color: "gray", }}>Happy Coding!</p>
+        Integer in props go in {} and "" will be string and bool goes in {}
+            <input maxLength={5} readOnly={false} placeHolder="Ben"></input>
+        'Class' NEEDS to be replaced with 'className'(Since class is a reserved keyword)
+            <h1 className='heading1'>
