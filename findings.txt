@@ -90,3 +90,11 @@ function SubHeader(){
     This works but in console, we get an error. Since we cannot use "class" keyword.
     Need to replace it with className
     TAKEAWAY = Use className and not class in JSX component
+
+31. Adding custom css
+    Created a custom css and put it inside src>css>style.css
+    Then added its link in index.html but changes were not reflecting.
+    Reason being because we've put that css in the folder which contains react code.
+    So, we need to import it as below in index.js file:
+    import "./css/style.css";
+    

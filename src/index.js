@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import "./css/style.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,7 +26,7 @@ function Header(){
 
 function MainHeader(){
   return(
-    <h1 className="text-primary">REACT COURSE</h1>
+    <h1 className="heading1">REACT COURSE</h1>
   );
 }
 
