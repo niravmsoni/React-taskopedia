@@ -105,3 +105,11 @@ function SubHeader(){
         const
     keywords. Avoid var. Use either let or const keywords.
     We can use that variable inside {} brackets
+
+35. HTML elements in JSX
+    With JSX, need to follow camelCase to props. Props = HTML attributes
+    maxLength={5}
+    readOnly={false}
+    placeHolder={"testPlaceHolder"}
+    Enter Task : <input maxLength={5} readOnly={true} placeholder={"test123456"}></input>
+    
