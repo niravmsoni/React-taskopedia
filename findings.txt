@@ -127,3 +127,14 @@ function SubHeader(){
           export default Header;
     or
         We can simply add export default function Header()
+
+40. Props and Components
+    Right now, Students component has FIXED value. What if we want to pass parameters to the Student compoennt?
+    String in "", Integer in {}.
+    Passed them in index.js as Props  
+    <Student experience={2} name="Hemali Soni"/>
+    <Student experience={5} name="Nirav Soni"/>
+    <Student experience={7} name="Angel Soni"/>
+
+    Now, we need to consume it.
+    Add props as function argument and access properties using props.experience, props.name
