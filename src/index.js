@@ -4,12 +4,13 @@ import "./css/style.css";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MainBody() {
+  const whatWeWillLearn = 'React JS';
   return(
 <div>
-    <p>In this course, we will learn react js by building TaskOPedia!</p>
+    <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!</p>
     <ul>
-      <li>Call Ben</li>
-      <li>Go to DMart</li>
+      <li>Basic Foundation</li>
+      <li>Functional and Class Components</li>
     </ul>
   </div>
   );

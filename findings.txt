@@ -97,4 +97,11 @@ function SubHeader(){
     Reason being because we've put that css in the folder which contains react code.
     So, we need to import it as below in index.js file:
     import "./css/style.css";
-    
+
+32. Variable in JSX
+    Similar to js, we can initialize a variable using
+        let
+        var
+        const
+    keywords. Avoid var. Use either let or const keywords.
+    We can use that variable inside {} brackets
