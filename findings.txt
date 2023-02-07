@@ -112,4 +112,5 @@ function SubHeader(){
     readOnly={false}
     placeHolder={"testPlaceHolder"}
     Enter Task : <input maxLength={5} readOnly={true} placeholder={"test123456"}></input>
-    
+
+36. Creating a functional component namely student
