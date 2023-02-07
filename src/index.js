@@ -5,9 +5,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 function MainBody() {
   const whatWeWillLearn = 'React JS';
+  const totalLecture = 3;
   return(
 <div>
-    <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!</p>
+    <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+    <br/>
+    Total Lecture - {totalLecture}
+    </p>
     <ul>
       <li>Basic Foundation</li>
       <li>Functional and Class Components</li>
