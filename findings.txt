@@ -114,3 +114,6 @@ function SubHeader(){
     Enter Task : <input maxLength={5} readOnly={true} placeholder={"test123456"}></input>
 
 36. Creating a functional component namely student
+    Created a new function namely Student
+    Added a few constants and generated image using ui-avatar
+    Made call to the ui-avatar site dynamically using {`{dynamic property}`}
