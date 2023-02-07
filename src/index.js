@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import "./css/style.css";
-import TempHeader from './header';
+import Header from './header';
+import Students from './students';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,27 +25,6 @@ function MainBody() {
   );
 }
 
-function Students(){
-  const fullName = "Hemali Soni";
-  const programmingExp = 2;
-  return (
-    <div className="container p-4">
-      <div className = "row">
-        Students Enrolled
-      </div>
-      <div className="row border">
-      <div className="col-2">
-        <img className="w-100" src={`https://ui-avatars.com/api/?name=${fullName}`} />
-      </div>
-      <div className="col-10">
-        {fullName}<br/>
-        Coding Experience: {programmingExp} years
-      </div>
-      </div>
-    </div>
-  );
-}
-
 
 function Footer(){
   return(
@@ -54,7 +34,7 @@ function Footer(){
 
 root.render(
 <div>
-  <TempHeader />
+  <Header />
   <MainBody/>
   <Students/>
   <Footer/>
