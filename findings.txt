@@ -130,6 +130,7 @@ function SubHeader(){
 
 40. Props and Components
     Right now, Students component has FIXED value. What if we want to pass parameters to the Student compoennt?
+    We can pass props to the components and access them in components by adding a props argument
     String in "", Integer in {}.
     Passed them in index.js as Props  
     <Student experience={2} name="Hemali Soni"/>
@@ -137,4 +138,5 @@ function SubHeader(){
     <Student experience={7} name="Angel Soni"/>
 
     Now, we need to consume it.
-    Add props as function argument and access properties using props.experience, props.name
+    Add "props" as function argument and access properties using props.experience, props.name
+    props -> Fixed. That's what we should be using
