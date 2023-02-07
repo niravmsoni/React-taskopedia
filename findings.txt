@@ -77,3 +77,16 @@ function SubHeader(){
     <p style={subHeaderStyle}>This will be an exciting course.</p>
   );
 }
+
+30. Adding bootstrap
+    Added 1 css file & 2 js files from here - https://getbootstrap.com/docs/5.3/getting-started/introduction/
+    Then directly added styles in index.js > MainHeader function
+    function MainHeader(){
+        return(
+            <h1 class="text-primary">REACT COURSE</h1>
+        );
+    }
+
+    This works but in console, we get an error. Since we cannot use "class" keyword.
+    Need to replace it with className
+    TAKEAWAY = Use className and not class in JSX component

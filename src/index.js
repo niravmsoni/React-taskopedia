@@ -25,7 +25,7 @@ function Header(){
 
 function MainHeader(){
   return(
-    <h1>REACT COURSE</h1>
+    <h1 className="text-primary">REACT COURSE</h1>
   );
 }
 
@@ -52,4 +52,4 @@ root.render(
   <MainBody/>
   <Footer/>
 </div>
-  );
+);
