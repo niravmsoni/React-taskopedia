@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import "./css/style.css";
+import TempHeader from './header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -43,31 +44,7 @@ function Students(){
     </div>
   );
 }
-function Header(){
-  return(
-    <div>
-<MainHeader />
-    <SubHeader />
-    </div>
-  );
-}
 
-function MainHeader(){
-  return(
-    <h1 className="heading1">REACT COURSE</h1>
-  );
-}
-
-const subHeaderStyle={
-  color:"blueviolet",
-  backgroundColor: "lightgray"
-}
-
-function SubHeader(){
-  return(
-    <p style={subHeaderStyle}>This will be an exciting course.</p>
-  );
-}
 
 function Footer(){
   return(
@@ -77,7 +54,7 @@ function Footer(){
 
 root.render(
 <div>
-  <Header />
+  <TempHeader />
   <MainBody/>
   <Students/>
   <Footer/>

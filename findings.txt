@@ -117,3 +117,13 @@ function SubHeader(){
     Created a new function namely Student
     Added a few constants and generated image using ui-avatar
     Made call to the ui-avatar site dynamically using {`{dynamic property}`}
+
+37. Exporting/Importing Components
+    We can separate out components in individual files.
+    We can use .js or .jsx extensions
+    Added a separate file "header.jsx"
+    Later, added export keyword in front of the Header() function
+    We can add this line at the end of file:
+          export default Header;
+    or
+        We can simply add export default function Header()
