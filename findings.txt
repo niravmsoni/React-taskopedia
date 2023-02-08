@@ -140,3 +140,8 @@ function SubHeader(){
     Now, we need to consume it.
     Add "props" as function argument and access properties using props.experience, props.name
     props -> Fixed. That's what we should be using
+
+41.
+    Using https://fakerjs.dev/ for creating avatar.
+    Executing this command: npm install @faker-js/faker --save-dev
+    Added a new item in package.json
