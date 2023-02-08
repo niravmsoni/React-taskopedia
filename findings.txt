@@ -141,7 +141,15 @@ function SubHeader(){
     Add "props" as function argument and access properties using props.experience, props.name
     props -> Fixed. That's what we should be using
 
-41.
+41. Install 3rd party libraries and images
     Using https://fakerjs.dev/ for creating avatar.
     Executing this command: npm install @faker-js/faker --save-dev
     Added a new item in package.json
+    Ran it. 
+    Used another site - lorem.space to get the image. Passed images as a props to the component
+
+42. Import images and designs
+    Moved react.png to images folder.
+    When we move images to src folder, we NEED to import it in the jsx
+    import logo from "./images/react.png";
+    
