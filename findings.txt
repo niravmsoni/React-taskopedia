@@ -199,3 +199,9 @@ function SubHeader(){
         Works on the concept of composition
 
 49. Class Components in action
+    Converted Student and StudentReview to Class based components.
+    1. Need to import react
+        import React from "react";
+    2. class <ComponentName> extends React.Component
+        class Student extends React.Component{
+    3. IF we're using any props, change it to this.props.
