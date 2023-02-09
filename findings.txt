@@ -205,3 +205,4 @@ function SubHeader(){
     2. class <ComponentName> extends React.Component
         class Student extends React.Component{
     3. IF we're using any props, change it to this.props.
+    4. Moved existing function code inside render() method
