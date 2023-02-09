@@ -179,3 +179,19 @@ function SubHeader(){
         const MainHeader = () => {}
 
         export default MainHeader
+
+48. Class component vs Functional component
+    Class Component
+        Less Common
+        Used when needed extra functionalities of state and other features
+        Has a render() method which returns HTML element
+        Stateful
+        Have Lifecycle methods(Mount(), unmount etc.)
+        Found in legacy react applications.
+    
+    Functional component
+        More Common
+        No need of render() method. Directly returns HTML element
+        Stateless component
+        No lifecycle method
+        With React 16.8, we get hooks. With them, we can pretty much accomplish whatever we can using class components
