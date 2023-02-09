@@ -1,6 +1,6 @@
 import logo from "../images/react.png";
 
-function MainHeader(){
+const MainHeader = () => {
     return(
       <div className="pt-3 py-1 pl-2" style={{backgroundColor: "black"}}>
         <img src={logo} style={{ height: "35px", verticalAlign: "top"}}></img>

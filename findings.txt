@@ -170,3 +170,12 @@ function SubHeader(){
     That way <StudentReview> will be available to be consumed under property "props.children"
 
 46. Restructuring project
+
+47.
+    Converted existing functions to arrow function
+    Before:
+        export default function Header(){}
+    After:
+        const MainHeader = () => {}
+
+        export default MainHeader
