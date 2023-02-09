@@ -153,3 +153,11 @@ function SubHeader(){
     When we move images to src folder, we NEED to import it in the jsx
     import logo from "./images/react.png";
     
+43. Footer and Main body component
+    Created separate component for Footer and MainBody and moved code there. 
+    Exported component and imported it in index.jsx
+    Moved Header.jsx and Footer.jsx into new folder namely layout
+
+44.
+    Moved student component inside MainBody
+    Styling changes
