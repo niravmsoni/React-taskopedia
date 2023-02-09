@@ -5,9 +5,12 @@ export default function Student(props){
         <div className="col-2">
           <img className="w-100 py-2" src={props.headShot} />
         </div>
-        <div className="col-10">
+        <div className="col-8">
           {props.name}<br/>
           Coding Experience: {props.experience} years
+        </div>
+        <div className="col-2">
+          {props.children}
         </div>
         </div>
       </div>

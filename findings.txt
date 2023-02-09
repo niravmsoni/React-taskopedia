@@ -161,3 +161,12 @@ function SubHeader(){
 44.
     Moved student component inside MainBody
     Styling changes
+
+45. Pass components as child
+    2 components in context here. Parent & child.
+    Parent = Student.jsx, Child = StudentReview.jsx.
+    IMPORTANT - If we import StudentReview inside Student.jsx, that will be available to all students.
+    So, instead of importing StudentReview inside Student, we'll consume it in MainBody and pass <StudentReview> between <Student> and </Student>.
+    That way <StudentReview> will be available to be consumed under property "props.children"
+
+46. Restructuring project

@@ -1,4 +1,5 @@
 import Student from './Student';
+import StudentReview from './StudentReview';
 
 function MainBody() {
     const whatWeWillLearn = 'React JS';
@@ -17,8 +18,12 @@ function MainBody() {
       Enter Task : <input maxLength={5} readOnly={true} placeholder={"test123456"}></input>
       </div> */}
       <div className = "col-4">Students Enrolled</div>
-        <Student experience={2} name="Hemali Soni" headShot="https://api.lorem.space/image/face?w=150&h=150"/>
-        <Student experience={5} name="Nirav Soni" headShot="https://api.lorem.space/image/face?w=151&h=150"/>
+        <Student experience={2} name="Hemali Soni" headShot="https://api.lorem.space/image/face?w=150&h=150">
+            <StudentReview/>
+        </Student>
+        <Student experience={5} name="Nirav Soni" headShot="https://api.lorem.space/image/face?w=151&h=150">
+        <StudentReview/>
+        </Student>
         <Student experience={7} name="Angel Soni" headShot="https://api.lorem.space/image/face?w=152&h=150"/>
     </div>
     
