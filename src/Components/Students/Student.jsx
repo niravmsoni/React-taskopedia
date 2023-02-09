@@ -1,20 +1,24 @@
-const Student = (props) => {
+import React from "react";
+
+class Student extends React.Component{
+  render(){
     return (
       <div className="container p-1">
         <div className="row border">
         <div className="col-2">
-          <img className="w-100 py-2" src={props.headShot} />
+          <img className="w-100 py-2" src={this.props.headShot} />
         </div>
         <div className="col-8">
-          {props.name}<br/>
-          Coding Experience: {props.experience} years
+          {this.props.name}<br/>
+          Coding Experience: {this.props.experience} years
         </div>
         <div className="col-2">
-          {props.children}
+          {this.props.children}
         </div>
         </div>
       </div>
     );
+  }
   }
   
   export default Student;

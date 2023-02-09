@@ -188,6 +188,7 @@ function SubHeader(){
         Stateful
         Have Lifecycle methods(Mount(), unmount etc.)
         Found in legacy react applications.
+        Works on the concept of inheritance
     
     Functional component
         More Common
@@ -195,3 +196,6 @@ function SubHeader(){
         Stateless component
         No lifecycle method
         With React 16.8, we get hooks. With them, we can pretty much accomplish whatever we can using class components
+        Works on the concept of composition
+
+49. Class Components in action
